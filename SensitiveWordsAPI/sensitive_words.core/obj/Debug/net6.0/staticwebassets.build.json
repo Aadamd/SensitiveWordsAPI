@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pV7iHqajgnBVoRBtVFO3bkwoGXw3FkrbhCglJ/HgRAc=",
+  "Source": "sensitive_words.core",
+  "BasePath": "_content/sensitive_words.core",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
