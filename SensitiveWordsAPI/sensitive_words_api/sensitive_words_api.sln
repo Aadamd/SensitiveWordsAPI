@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sensitive_words.api", "sensitive_words.api.csproj", "{B68982E0-25F2-44CF-B5C9-CBD5DF1B27DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBB4768B-2234-4CB8-AD8B-9B9A3231AF82} = {CBB4768B-2234-4CB8-AD8B-9B9A3231AF82}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sensitive_words.core", "..\sensitive_words.core\sensitive_words.core.csproj", "{CBB4768B-2234-4CB8-AD8B-9B9A3231AF82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sensitive_words.services", "..\sensitive_words.services\sensitive_words.services.csproj", "{F6046FA6-390D-4C49-8457-63BA67DB4974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sensitive_words.tests", "..\sensitive_words_ms.tests\sensitive_words.tests.csproj", "{273442DC-F844-4386-A4B5-F2874DC5E855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B68982E0-25F2-44CF-B5C9-CBD5DF1B27DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68982E0-25F2-44CF-B5C9-CBD5DF1B27DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68982E0-25F2-44CF-B5C9-CBD5DF1B27DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68982E0-25F2-44CF-B5C9-CBD5DF1B27DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB4768B-2234-4CB8-AD8B-9B9A3231AF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB4768B-2234-4CB8-AD8B-9B9A3231AF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB4768B-2234-4CB8-AD8B-9B9A3231AF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB4768B-2234-4CB8-AD8B-9B9A3231AF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6046FA6-390D-4C49-8457-63BA67DB4974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6046FA6-390D-4C49-8457-63BA67DB4974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6046FA6-390D-4C49-8457-63BA67DB4974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6046FA6-390D-4C49-8457-63BA67DB4974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273442DC-F844-4386-A4B5-F2874DC5E855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273442DC-F844-4386-A4B5-F2874DC5E855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273442DC-F844-4386-A4B5-F2874DC5E855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273442DC-F844-4386-A4B5-F2874DC5E855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F08DCE0-B69F-44E6-A637-81AC9B65A626}
+	EndGlobalSection
+EndGlobal
