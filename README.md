@@ -24,3 +24,11 @@ The Sensitive Words Microservice provides functionality to filter out sensitive 
 
 ## Configuration
 - Connection String: Update the connection string in the 'appsettings.json' file to point to the SQL Server instance
+
+## Future Improvements
+- Make the word Id's Guid
+- Make Models and DTO's for the data
+- create a batch delete method
+- Option to Delete word from DB using the word instead of the WordId
+- Create DB or ensure the DB exists when running the API
+
