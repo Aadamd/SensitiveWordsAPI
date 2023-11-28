@@ -23,6 +23,7 @@ The Sensitive Words Microservice provides functionality to filter out sensitive 
 - POST /api/SensitiveWords/sanitizeString: Sanitizes strings
 
 ## Configuration
+- Generate the database by running the SensitiveWordsGenerator script through SQL Server Management Studio or a SQL script runner
 - Connection String: Update the connection string in the 'appsettings.json' file to point to the SQL Server instance
 
 ## Future Improvements
